@@ -4,6 +4,7 @@ sorted = list.sort()
 for i in list:
     if i == 1:
         list.remove(1)
+        list.remove(1)
 list2 = [7,8]
-add = list.append(list2)
+add = list.append(str(list2)[1:-1])
 print(list)
