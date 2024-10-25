@@ -1,5 +1,12 @@
 ### Part Four -- your code goes here. 
 import random
-num = random.randint(0,100)
+index = 0
+list = []
+while index != 10:
+    list.append(random.randint(0,100))
+    index += 1
+print(list)
 for i in list:
-    while
+    while i % 2 != 0:
+        list.pop(i)
+print(list)
