@@ -7,6 +7,7 @@ while index != 10:
     index += 1
 print(list)
 for i in list:
-    while i % 2 != 0:
-        list.pop(i)
-print(list)
+    while i % 2 == 0:
+        print(i)
+        #list.pop(i)
+#print(list)
